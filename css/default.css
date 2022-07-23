@@ -1,0 +1,173 @@
+#logotipo{
+    display: flex;
+}
+
+#título{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1%;
+    font-size: 40px;
+    color: rgb(4, 4, 127);
+}
+
+.navegador{
+    background-color: white;
+    border-bottom: solid 5px rgb(42, 42, 68);
+}
+
+body{
+    background: url(../img/vista.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: rgb(6, 6, 6,0.7);
+    color: white;
+    padding: 2%;
+    margin-top: 90px;
+    display: flex;
+}
+
+.borde{
+    border-right: solid 2px white;
+}
+
+.noticias li{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+.tittle{
+    color: yellow;
+}
+
+.div-nav{
+    padding-left: 10%;
+}
+
+li > a{
+    padding: 4%;
+}
+
+.lista a{
+    transition: 0ms;
+    background-size: none;
+}
+
+.lista a{
+    color: rgb(4, 4, 127);
+}
+
+.lista a:hover{
+    background-color: none;
+    border-bottom: solid 1px rgb(4, 4, 127);
+    color: rgb(4, 4, 127);
+}
+
+.lista a:hover{
+    background-color: none;
+    border-bottom: solid 1px rgb(4, 4, 127);
+    color: rgb(4, 4, 127);
+}
+
+.cont-principal{
+    margin-left: 1%;
+    padding-left: 3%;
+    text-align: justify;
+}
+
+.cont-principal-div{
+    padding-bottom: 25px;
+    border-bottom: solid 1px white;
+}
+
+.boton{
+    color: rgb(4, 4, 127);
+    border: solid 1px rgb(4, 4, 127);
+    border-radius: 5px;
+}
+
+.boton:hover{
+    transition: 0.7s;
+    color: white;
+    background-color: rgb(4, 4, 127);
+}
+
+.img{
+    border: solid 2px yellow;
+}
+
+.cont-principal h2{
+    color: yellow;
+}
+
+.pie-pagina{
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/marte.jpg);
+    background-size: cover;
+    height: 90px;
+    color: white;
+    font-size: 15px;
+    padding: 1%;
+}
+
+#footer{
+    text-align: center;
+}
+
+.footer-nav{
+    text-decoration: none;
+    color: white;
+} 
+
+.footer-nav2{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 2%;
+    border-right: solid 1px white;
+    color: white;
+}
+
+.footer-nav :hover{
+    color: white;
+}
+
+.icono{
+    background-color: white;
+}
+
+em{
+    color: rgb(177, 177, 8);
+    padding-right: 3%;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.frm{
+    margin-left: 15%;
+    margin-top: 7%;
+}
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16/9 ratio */
+    padding-top: 30px;
+    /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nombre{
+    text-align: center;
+}
